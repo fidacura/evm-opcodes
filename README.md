@@ -31,7 +31,7 @@ Ethereum Virtual Machine Opcodes
 | 0x14 | EQ | Equality  comparison | 3 | `a, b` → `a == b` |
 | 0x15 | ISZERO | Simple not operator | 3 | `a` → `a == 0` |
 | 0x16 | AND | Bitwise AND operation | 3 | `a, b` → `a && b`	 |
-| 0x17 | OR | Bitwise OR operation | 3 | `a, b` → `a || b` |
+| 0x17 | OR | Bitwise OR operation | 3 | `a, b` → `a` || b` |
 | 0x18 | XOR | Bitwise XOR operation | 3 | `a, b` → `a ^ b` |
 | 0x19 | NOT | Bitwise NOT operation | 3 | `a` → `~a` |
 | 0x1a | BYTE | Retrieve single byte from word | 3 | `i, x` → `(x >> (248 - i * 8)) && 0xFF` |
